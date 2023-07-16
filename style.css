@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+}
+
+.menu{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #4169E1;
+}
+
+.menu a{
+    text-decoration: none;
+    color: beige;
+    display: inline-block;
+    width: 100px;
+    padding: 20px 40px;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    background-color: #ccc;
+    color: black;
+
+
+}
+
+.header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 200px 0;
+    background-image: url(img/vi43ppvotb1o7p1d4ikbpcvb3isufps5.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 58px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header a{
+    padding: 12px 24px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    
+
+}
+#about-singers img{
+    width: 400px;
+    float: right;
+    margin: 30px;
+    margin-top: 0px ;
+}
+#about-singers{
+    width: 1100px;
+    padding: 40px 0;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.header a:hover{
+    background-color: #b1b1b2;
+}
+
+.header p{
+    margin: 45px 0;
+}
+
+#about-singers h2{
+    text-align: center;
+
+}
+
+#Singers{
+    text-align: center;
+    width: 210px;
+    padding: 50px 0;
+    margin: 0 auto;
+    display: block;
+} 
+
+#Singers h2{
+    text-align: center;
+}
+
+
+
+
+
+.member{
+    display: inline-block;
+    width: 20%;
+    margin: 20px 10px;
+    border: solid 2px grey;
+    box-shadow: 0px 2px 5px grey;
+    padding: 15px;
+    text-align: center;
+    
+    
+}
+
+.member img{
+    width: 100%;
+    
+}
+
+.member h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.member .position{
+    opacity: 0.6;
+}
+
+.member a{
+    display: inline-block;
+    width: 100%;
+    background-color: purple;
+    border-radius: 10px;
+    text-decoration: none;
+    color: wheat;
+    padding: 14px 0px;
+    text-align: center;
+
+}
+
+.members-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tariff li{
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    padding: 16px 0;
+    border-radius: 10px;
+    
+}
+
+.tariff .tariff-name{
+    color: white;
+    background-color: black;
+    font-size: 24px;
+    padding: 32px 0;
+    border-radius: 10px;
+}
+
+.tariff .best{
+    background-color: #055b73;
+    padding: 48px 0;
+    border-radius: 10px;
+}
+
+.tariff{
+    display:inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 0;
+    background-color: white;
+    vertical-align: middle;
+    border-radius: 10px;
+
+}
+
+.tariff li:last-child{
+    background-color: #f1f1f1;
+    padding: 24px 0;
+    border-radius: 10px;
+}
+
+.tariff a{
+    background-color:#6495ED;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none ;
+    border-radius: 10px;
+}
+
+.tariff a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+#prices{
+    background-color: #616161;
+    text-align: center ;
+    padding: 50px 0;
+}
+
+#prices h2, #prices p{
+    color: white;
+}
+
+.important{
+    font-weight: bold;
+
+}
+
+#prices .price{
+    color: #4169E1;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#prices .period{
+    color: black;
+    opacity: 0.3;
+}
+
+#contact{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px 0; 
+}
+
+.contact-address{
+    background-image: url(img/address.png);
+    
+}
+
+.contact-phone{
+    background-image: url(img/phone.png);
+
+}
+.contact-email{
+    background-image: url(img/mail.png);
+}
+
+.contact-info{
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    text-align: left;
+    padding-left: 30px;
+    margin-left: 5%;
+}
+
+#contact input{
+    padding: 8px;
+    width: 90%;
+
+}
+
+#contact button{
+    background-color: #4169E1 ;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+#contact button:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.footer{
+    width: 100%;
+    background-color: gray;
+    color: white;
+    
+}
+
